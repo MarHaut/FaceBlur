@@ -8,7 +8,7 @@ from os.path import basename
 import argparse
  
 detector = dlib.get_frontal_face_detector()
-fourcc = cv2.VideoWriter_fourcc(*'MP4')
+fourcc = cv2.VideoWriter_fourcc(*'mp4')
 
 def show(name, img, val = 0):
     cv2.imshow(name, img)
